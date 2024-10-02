@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+
+
+
+.nav{
+    @apply flex items-center gap-2 py-4 transition-colors duration-300 hover:text-[#8BC34A] focus:text-[#8BC34A] focus:outline-none focus-visible:outline-none lg:px-8
+}
