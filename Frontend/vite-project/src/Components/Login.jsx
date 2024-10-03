@@ -35,7 +35,7 @@ const LoginForm = () => {
         setLoading(true); // Set loading to true
 
         try {
-            const res = await axios.post('http://localhost:3000/api/auth/login', {
+            const res = await axios.post('/api/auth/login', {
                 email: user.email,
                 password: user.password,
             });
